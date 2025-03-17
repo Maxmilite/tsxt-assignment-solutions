@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:id="@+id/forward"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.7"
+            android:text="↑" android:textSize="48sp" android:textStyle="bold"/>
+    <Button
+            android:text="↓"
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:id="@+id/backward"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintHorizontal_bias="0.501" android:textSize="48sp" android:textStyle="bold"/>
+    <Button
+            android:text="←"
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:id="@+id/left"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15" app:layout_constraintVertical_bias="0.9"
+            android:textSize="48sp" android:textStyle="bold"/>
+    <Button
+            android:text="→"
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:id="@+id/right"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.855" app:layout_constraintVertical_bias="0.9"
+            android:textSize="48sp" android:textStyle="bold"/>
+    <WebView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/web_view"/>
+    <SeekBar
+            android:layout_width="250dp"
+            android:layout_height="40dp" android:id="@+id/speedBar"
+            app:layout_constraintBottom_toTopOf="@+id/forward" android:layout_marginBottom="32dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="48dp" android:max="100" android:progress="100"/>
+    <TextView
+            android:text="Speed"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" android:id="@+id/speedTextView"
+            app:layout_constraintEnd_toStartOf="@+id/speedBar"
+            app:layout_constraintBottom_toBottomOf="@+id/speedBar" android:textSize="20sp"
+            android:typeface="normal" android:textAlignment="center"
+            android:layout_marginEnd="12dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

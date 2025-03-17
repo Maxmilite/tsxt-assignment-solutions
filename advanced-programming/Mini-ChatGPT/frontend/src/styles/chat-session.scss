@@ -1,0 +1,35 @@
+// import dark theme
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+
+.scrollbar-self {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 60px;
+    text-align: left;
+    border-radius: 4px;
+    background: var(--ep-color-primary-light-9);
+    color: var(--ep-color-primary);
+    margin-left: calc(max(100vw - 500px, 50vw));
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.scrollbar-chatbot {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 60px;
+    text-align: left;
+    border-radius: 4px;
+    background: var(--ep-color-success-light-9);
+    color: var(--ep-color-success);
+    margin-right: calc(max(100vw - 500px, 50vw));
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+#chatbox-main {
+    border: 1px solid var(--ep-border-color);
+    border-radius: 3px;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/titleText"
+            app:layout_constraintVertical_bias="0.095" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="48sp"/>
+    <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:inputType="textPersonName"
+            android:text="192.168.173.250"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/address"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.157" android:minHeight="48dp" app:flow_horizontalAlign="center"
+            app:flow_verticalAlign="center"/>
+    <Button
+            android:text="Connect"
+            android:onClick="connect"
+            android:layout_width="165dp"
+            android:layout_height="52dp" android:id="@+id/button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="128dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" app:layout_constraintVertical_bias="1.0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

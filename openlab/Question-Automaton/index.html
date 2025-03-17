@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Question 自动机</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <canvas id="snow-flake-app"></canvas>
+    <script src="js/snow-flake-app.js"></script>
+    <div id="nav">
+        <div id="profile">
+            <img src="icon.png" id="nav-icon">
+            <p id="title">
+                Question 自动机
+            </p>
+        </div>
+    </div>
+    <div id="main">
+        <div id="search-bar">
+            <input type="text" autofocus id="input-bar" list="text-list" placeholder="请输入你的问题">
+            <datalist id="text-list"></datalist>
+            <button id="search" onclick=search()>
+                <img src="search.svg" id="search-icon">
+            </button>
+        </div>
+        <div id="content-column">
+            <p id="content">
+                
+            </p>
+        </div>
+    </div>
+    <div style="height: 5vh;"></div>
+
+</body>
+
+</html>

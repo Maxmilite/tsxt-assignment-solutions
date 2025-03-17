@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment" >
+    <TextView
+            android:text="More music will be published soon..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textAlignment="center"
+            android:textSize="20sp" tools:layout_editor_absoluteX="24dp" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/radio_group"/>
+    <RadioGroup
+            android:layout_width="363dp"
+            android:layout_height="322dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp" android:id="@+id/radio_group"
+            android:checkedButton="@id/radioButton0">
+        <RadioButton
+                android:text="Off"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/radioButton0" android:textAlignment="viewStart"
+                android:textSize="20sp"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/radioButton1"
+                android:textAlignment="viewStart" android:textSize="20sp" android:text="I Got Smoke"/>
+        <RadioButton
+                android:text="你看到的我（DJ 版）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/radioButton2" android:textAlignment="viewStart"
+                android:textSize="20sp"/>
+        <RadioButton
+                android:text="姐就是女王"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/radioButton3" android:textAlignment="viewStart"
+                android:textSize="20sp"/>
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
