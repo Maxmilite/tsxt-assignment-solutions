@@ -1,0 +1,13 @@
+# all directories starting with .
+.*/
+
+# all files named Main or ends with .o
+Main
+*.o
+
+# all files ending with .zip
+*.zip
+
+.vscode
+
+*test*

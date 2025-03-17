@@ -1,0 +1,20 @@
+# Ignore build directories
+/build/
+/dist/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+imgui.ini

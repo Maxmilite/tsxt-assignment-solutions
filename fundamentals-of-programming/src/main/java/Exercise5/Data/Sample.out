@@ -1,0 +1,107 @@
+Reading file from C:/Users/MAXMIL~1/AppData/Local/Temp/StudentManager/conf.json
+File doesn't exist.
+Folder was created.
+[INFO] The student 202200130222's information was rewritten.
+[INFO] The student 202200171012's information was rewritten.
+[INFO] The student 202200450040's information was rewritten.
+[INFO] The student 202222130198's information was rewritten.
+[INFO] The student 202222150140's information was rewritten.
+[INFO] The student 202222400150's information was rewritten.
+[INFO] The student 202222460127's information was rewritten.
+[INFO] The student 202200130076's information was rewritten.
+[INFO] The student 202200130147's information was rewritten.
+[INFO] The student 202200130222's information was rewritten.
+[INFO] The student 202200171012's information was rewritten.
+[INFO] The student 202200460115's information was rewritten.
+[INFO] The student 202200460118's information was rewritten.
+[INFO] The student 202222130198's information was rewritten.
+[INFO] The student 202222130201's information was rewritten.
+[INFO] The student 202222150135's information was rewritten.
+[INFO] The student 202222150140's information was rewritten.
+[INFO] The student 202222171174's information was rewritten.
+[INFO] The student 202222400150's information was rewritten.
+[INFO] The student 202222460127's information was rewritten.
+[INFO] The lesson 0003's name was rewritten to C++.
+[INFO] The lesson 0006's name was rewritten to 英语.
+[INFO] The lesson 0007's name was rewritten to 数据结构.
+[INFO] The lesson 0009's name was rewritten to 软件工程.
+[INFO] The lesson 0004's name was rewritten to 数学分析.
+[INFO] The lesson 0005's name was rewritten to 线性代数.
+[INFO] The lesson 0006's name was rewritten to 英语.
+[INFO] The lesson 0007's name was rewritten to 数据结构.
+[INFO] The lesson 0009's name was rewritten to 软件工程.
+[INFO] The lesson 0010's name was rewritten to 操作系统.
+[INFO] The lesson 0011's name was rewritten to 数据库原理.
+[INFO] The lesson 0012's name was rewritten to 计算机网路.
+[ERROR] Student 202200130240's information is not found.
+[ERROR] Curriculum 0008 is not found.
+[ERROR] Student 202200130240's information is not found.
+[INFO] Student 202222150135's 0005 score was rewritten to 75.
+[INFO] Student 202200130076's 0001 score was rewritten to 85.
+[INFO] Student 202200130119's 0002 score was rewritten to 68.
+[INFO] Student 202200171012's 0004 score was rewritten to 75.
+[INFO] Student 202200201148's 0005 score was rewritten to 60.
+[INFO] Student 202200450040's 0006 score was rewritten to 80.
+[INFO] Student 202200460115's 0007 score was rewritten to 95.
+[INFO] Student 202200460118's 0001 score was rewritten to 80.
+[INFO] Student 202222130196's 0002 score was rewritten to 75.
+[INFO] Student 202222150135's 0005 score was rewritten to 75.
+[INFO] Student 202222150140's 0005 score was rewritten to 60.
+[ERROR] Curriculum 0008 is not found.
+[INFO] Student 202222171174's 0011 score was rewritten to 90.
+[INFO] Student 202222460127's 0002 score was rewritten to 92.
+[INFO] Student 202200130076's 0004 score was rewritten to 85.
+[INFO] Student 202200130119's 0012 score was rewritten to 68.
+[INFO] Student 202200130147's 0007 score was rewritten to 100.
+[INFO] Student 202200130222's 0006 score was rewritten to 99.
+[INFO] Student 202200201148's 0007 score was rewritten to 60.
+[INFO] Student 202200450040's 0003 score was rewritten to 80.
+[INFO] Student 202200460115's 0004 score was rewritten to 95.
+[INFO] Student 202222130198's 0007 score was rewritten to 65.
+[INFO] Student 202222130201's 0003 score was rewritten to 95.
+[INFO] Student 202222150135's 0005 score was rewritten to 75.
+[INFO] Student 202222150140's 0003 score was rewritten to 60.
+[INFO] Student 202222161172's 0009 score was rewritten to 99.
+[INFO] Student 202222171174's 0010 score was rewritten to 90.
+[INFO] Student 202222201115's 0011 score was rewritten to 83.
+[INFO] Student 202222400150's 0011 score was rewritten to 84.
+[INFO] Student 202222460127's 0012 score was rewritten to 92.
+[INFO] Student 202200130076's 0001 score was rewritten to 85.
+[INFO] Student 202200171012's 0004 score was rewritten to 75.
+[INFO] Student 202200201148's 0005 score was rewritten to 60.
+[INFO] Student 202200450040's 0006 score was rewritten to 80.
+[INFO] Student 202222130198's 0003 score was rewritten to 65.
+[INFO] Student 202222130201's 0004 score was rewritten to 95.
+[INFO] Student 202222150135's 0005 score was rewritten to 75.
+[INFO] Student 202222150140's 0005 score was rewritten to 60.
+[INFO] Student 202222201115's 0012 score was rewritten to 83.
+[INFO] Student 202200450040's 0003 score was rewritten to 80.
+[INFO] Student 202200460118's 0006 score was rewritten to 80.
+[INFO] Student 202222130196's 0004 score was rewritten to 75.
+[INFO] Student 202222130198's 0007 score was rewritten to 65.
+[INFO] Student 202222130201's 0003 score was rewritten to 95.
+[INFO] Student 202222150140's 0003 score was rewritten to 60.
+[INFO] Student 202222171174's 0010 score was rewritten to 90.
+[INFO] Student 202222201115's 0011 score was rewritten to 83.
+[INFO] Student 202222460127's 0012 score was rewritten to 92.
+202200130147 陈宇飞 5.00
+202200130222 陈政彬 4.90
+202222161172 孔轲祎 4.90
+202200460115 陈欣宇 4.50
+202222130201 单红旗 4.50
+202222460127 司韶君 4.20
+202222171174 顾轩昂 4.00
+202200130076 刘子龙 3.50
+202222400150 侯博涵 3.40
+202222201115 王艺臻 3.30
+202200450040 闫祖铭 3.00
+202200460118 霍胜杰 3.00
+202222150135 高源 2.50
+202200171012 李曜彤 2.50
+202222130196 梁云森 2.50
+202200130119 于斐 1.80
+202222130198 王新宇 1.50
+202200201148 王鹤松 1.00
+202222150140 李高源 1.00
+Saving file to C:/Users/MAXMIL~1/AppData/Local/Temp/StudentManager/conf.json
+C:/Users/MAXMIL~1/AppData/Local/Temp/StudentManager/conf.json was written.

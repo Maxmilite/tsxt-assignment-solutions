@@ -1,0 +1,6 @@
+include/* linguist-detectable=false
+lib/* linguist-detectable=false
+include/ linguist-detectable=false
+lib/ linguist-detectable=false
+include linguist-detectable=false
+lib linguist-detectable=false
